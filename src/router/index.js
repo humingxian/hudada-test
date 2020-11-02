@@ -45,44 +45,6 @@ const routes = [
     name: 'hudada-test-about',
     component: () => import('../page/about/index.vue')
   }
-  // {
-  //   path: '/test',
-  //   name: 'hudadaTestTest',
-  //   component: () => import('../page/test.vue')
-  // },
-  // {
-  //   path: '/animate',
-  //   name: 'hudadaTestAnimate',
-  //   component: () => import('../page/animate')
-  // },
-  // {
-  //   path: '/three',
-  //   name: 'hudadaTestThree',
-  //   component: () => import('../page/three'),
-  //   redirect: '/three/example_01',
-  //   children: [
-  //     {
-  //       path: 'example_01',
-  //       name: 'hudadaTestThreeExample_01',
-  //       component: () => import('../page/three/example_01.vue')
-  //     },
-  //     {
-  //       path: 'example_02',
-  //       name: 'hudadaTestThreeExample_02',
-  //       component: () => import('../page/three/example_02.vue')
-  //     },
-  //     {
-  //       path: 'example_03',
-  //       name: 'hudadaTestThreeExample_03',
-  //       component: () => import('../page/three/example_03.vue')
-  //     },
-  //     {
-  //       path: 'example_04',
-  //       name: 'hudadaTestThreeExample_04',
-  //       component: () => import('../page/three/example_04.vue')
-  //     }
-  //   ]
-  // }
 ]
 
 export default new Router({
